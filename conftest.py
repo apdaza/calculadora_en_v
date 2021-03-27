@@ -7,5 +7,5 @@ def app():
     yield flask_app
 
 @pytest.fixture
-def Cliente(app):
-    return app.test_cliente()
+def client(app):
+    return app.test_client()
