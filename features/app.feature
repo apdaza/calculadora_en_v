@@ -1,4 +1,4 @@
-Feature app calculadora
+Feature: app calculadora
 
 Scenario Outline: Obtener total del app calculadora
 Given los <valores> para operar en la app
